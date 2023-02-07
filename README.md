@@ -9,7 +9,7 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a s
 
 
 ## Demo of Object Tracker on Tanks
-<a href="center"><https://user-images.githubusercontent.com/95843188/217168596-433d7547-8cb8-4baf-b139-0045abedac72.mp4\></a>
+https://user-images.githubusercontent.com/95843188/217168596-433d7547-8cb8-4baf-b139-0045abedac72.mp4\
 
 
 ## Getting Started
@@ -88,8 +88,6 @@ To filter a custom selection of classes all you need to do is comment out line 1
 
 
 
-### Demo of Object Tracker set to only track the class 'car'
-https://user-images.githubusercontent.com/95843188/217169810-021e213e-9e01-42bd-b3e1-d3a12f99579f.mp4
 ## Command Line Args Reference
 
 ```bash
