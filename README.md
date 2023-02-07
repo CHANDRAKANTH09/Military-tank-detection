@@ -9,7 +9,7 @@ Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a s
 ## Demo of Object Tracker on Persons
 <p align="center"><img src="data/helpers/demo.gif"\></p>
 
-## Demo of Object Tracker on Cars
+## Demo of Object Tracker on Tanks
 https://user-images.githubusercontent.com/95843188/217168596-433d7547-8cb8-4baf-b139-0045abedac72.mp4
 
 ## Getting Started
