@@ -87,6 +87,8 @@ To filter a custom selection of classes all you need to do is comment out line 1
 
 Deep Sort:
 DeepSORT can be defined as the tracking algorithm which tracks objects not only based on the velocity and motion of the object but also the appearance of the object.
+![deepsort](https://user-images.githubusercontent.com/95843188/220253013-b9d3e35a-e2ca-40ad-9ccc-7cb4c320f629.jpg)
+
 
 
 ## Command Line Args Reference
