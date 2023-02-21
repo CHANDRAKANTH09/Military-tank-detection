@@ -77,7 +77,7 @@ python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 
 ## Resulting Video
 As mentioned above, the resulting video will save to wherever you set the ``--output`` command line flag path to. I always set it to save to the 'outputs' folder. You can also change the type of video saved by adjusting the ``--output_format`` flag, by default it is set to AVI codec which is XVID.
 
-Example video showing tracking of all coco dataset classes:
+
 
 
 ## Filter Classes that are Tracked by Object Tracker
@@ -85,7 +85,8 @@ By default the code is setup to track all 80 or so classes from the coco dataset
 
 To filter a custom selection of classes all you need to do is comment out line 159 and uncomment out line 162 of [object_tracker.py](https://github.com/theAIGuysCode/yolov4-deepsort/blob/master/object_tracker.py) Within the list ``allowed_classes`` just add whichever classes you want the tracker to track. The classes can be any of the 80 that the model is trained on, see which classes you can track in the file [data/classes/coco.names](https://github.com/theAIGuysCode/yolov4-deepsort/blob/master/data/classes/coco.names)
 
-
+Deep Sort:
+DeepSORT can be defined as the tracking algorithm which tracks objects not only based on the velocity and motion of the object but also the appearance of the object.
 
 
 ## Command Line Args Reference
