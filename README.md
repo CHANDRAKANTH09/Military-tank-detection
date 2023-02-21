@@ -82,7 +82,7 @@ By default the code is setup to track all 80 or so classes from the coco dataset
 
 To filter a custom selection of classes all you need to do is comment out line 159 and uncomment out line 162 of [object_tracker.py](https://github.com/theAIGuysCode/yolov4-deepsort/blob/master/object_tracker.py) Within the list ``allowed_classes`` just add whichever classes you want the tracker to track. The classes can be any of the 80 that the model is trained on, see which classes you can track in the file [data/classes/coco.names](https://github.com/theAIGuysCode/yolov4-deepsort/blob/master/data/classes/coco.names)
 
-Deep Sort:
+### Deep Sort:
 DeepSORT can be defined as the tracking algorithm which tracks objects not only based on the velocity and motion of the object but also the appearance of the object.
 ![deepsort](https://user-images.githubusercontent.com/95843188/220253013-b9d3e35a-e2ca-40ad-9ccc-7cb4c320f629.jpg)
 
@@ -132,8 +132,7 @@ save_model.py:
     (default: False)
 ```
 
-### References  
-
-   Huge shoutout goes to hunglc007 and nwojke for creating the backbones of this repository:
-  * [tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite)
-  * [Deep SORT Repository](https://github.com/nwojke/deep_sort)
+### References 
+  * [yolov3](https://github.com/heartkilla/yolo-v3)
+  * [Deep SORT](https://learnopencv.com/understanding-multiple-object-tracking-using-deepsort/)
+  * [Yolo paper](https://arxiv.org/abs/1506.02640)
