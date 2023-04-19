@@ -1,9 +1,9 @@
 # Military-tank-detection
 
+An autonomous navigation by a military tank towards its target such as another military tank or vehicles, based on the detection, locking-on and following the movements of the target is a much sought after application. We will simulate the war field using cars. A car mounted with NVidia GPU board and HD camera, shall detect other cars and locks-on to one of the nearest cars and follows it.
+Technologies : IOT Programming, Deep Learning.
 
 # yolov4-deepsort
-
-
 Object tracking implemented with YOLOv4, DeepSort, and TensorFlow. YOLOv4 is a state of the art algorithm that uses deep convolutional neural networks to perform object detections. We can take the output of YOLOv4 feed these object detections into Deep SORT (Simple Online and Realtime Tracking with a Deep Association Metric) in order to create a highly accurate object tracker.
 
 
